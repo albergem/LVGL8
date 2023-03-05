@@ -1,0 +1,24 @@
+{
+// 有关 tasks.json 格式的文档，请参见
+    // https://go.microsoft.com/fwlink/?LinkId=733558
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "riscv64-unknown-elf-g++ build active file",
+            "command": "d:/Projects/K210/K210_Maix_Bit/IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "d:/Projects/K210/K210_Maix_Bit/IDE/KendryteIDE/LocalPackage/toolchain/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}

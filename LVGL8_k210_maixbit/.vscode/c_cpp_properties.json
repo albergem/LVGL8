@@ -1,0 +1,21 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Default",
+            "defines": [],
+            "compilerPath": "d:/Projects/K210/K210_Maix_Bit/IDE/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "compileCommands": "d:/Projects/K210/K210_Maix_Bit/SDK/lvgl/lvgl8-projects/k210-kendryte_dvp2lcd-standalone1.14/.vscode/compile_commands.backup.json",
+            "includePath": [
+                "d:/Projects/K210/K210_Maix_Bit/IDE/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/include",
+                "d:/Projects/K210/K210_Maix_Bit/IDE/KendryteIDE/LocalPackage/toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include",
+                "d:/Projects/K210/K210_Maix_Bit/IDE/KendryteIDE/LocalPackage/toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed",
+                "d:/Projects/K210/K210_Maix_Bit/IDE/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/include/c++/8.2.0",
+                "d:/Projects/K210/K210_Maix_Bit/IDE/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf"
+            ]
+        }
+    ]
+}

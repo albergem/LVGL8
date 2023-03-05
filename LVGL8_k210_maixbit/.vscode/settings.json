@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "iomem.h": "c",
+        "plic.h": "c",
+        "dvp.h": "c",
+        "fpioa.h": "c",
+        "uarths.h": "c",
+        "sysctl.h": "c",
+        "nt35310.h": "c",
+        "lvgl.h": "c"
+    }
+}
